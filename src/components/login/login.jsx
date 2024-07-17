@@ -74,15 +74,14 @@ const Login = () => {
                     <form action="" className="form grid" onSubmit={handleSubmit(onSubmit)}>
                         <span className="showMessage">Login status will go here</span>
                         <div className="inputDiv">
-                            <label htmlFor="Username"
-                            {
-                                    ...register("email", { required: "Email or username is required" })
-
-                                    } >Username</label>
+                            <label htmlFor="Username">Username</label>
                             <div className="input flex">
                                 <FaUserShield className="icon" />
                                 <input type="text" id="username" placeholder="Enter Username"
-                                    />
+                                    {
+                                    ...register("email", { required: "Email or username is required" })
+
+                                    } />
                                 {errors.email && (
                                     <p className='text-red-500'>{errors.email.message}</p>
                                 )}
