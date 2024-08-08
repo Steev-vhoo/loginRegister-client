@@ -127,7 +127,7 @@ video {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   top: 0;
   bottom: 0;
   right: 0;
@@ -159,7 +159,7 @@ video {
   right: 10px;
   justify-content: space-between;
   -webkit-backdrop-filter: blur(1px);
-          backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
   border-radius: 10px;
 }
 .registerPage .container .videoDiv .footerDiv .text {
@@ -214,7 +214,7 @@ video {
 }
 .registerPage .container .formDiv .form .inputDiv .icon {
   -moz-columns: var(--greyText);
-       columns: var(--greyText);
+  columns: var(--greyText);
 }
 .registerPage .container .formDiv .form .inputDiv input {
   background: none;
@@ -302,7 +302,7 @@ video {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   top: 0;
   bottom: 0;
   right: 0;
@@ -334,7 +334,7 @@ video {
   right: 10px;
   justify-content: space-between;
   -webkit-backdrop-filter: blur(1px);
-          backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
   border-radius: 10px;
 }
 .loginPage .container .videoDiv .footerDiv .text {
@@ -380,7 +380,7 @@ video {
 }
 .loginPage .container .formDiv .form .inputDiv .icon {
   -moz-columns: var(--greyText);
-       columns: var(--greyText);
+  columns: var(--greyText);
 }
 .loginPage .container .formDiv .form .inputDiv input {
   background: none;
@@ -428,7 +428,7 @@ video {
 .loginPage .container .formDiv .form .forgotPassword {
   font-size: 13px;
   -moz-columns: var(--blackColor);
-       columns: var(--blackColor);
+  columns: var(--blackColor);
   opacity: 7;
   text-align: center;
 }
@@ -558,4 +558,4 @@ video {
   .registerPage .container {
     width: 85%;
   }
-}/*# sourceMappingURL=App.css.map */
+} /*# sourceMappingURL=App.css.map */
